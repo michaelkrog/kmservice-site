@@ -1,9 +1,9 @@
 links:
-- name: Portfolio
-  link: /portfolio/
+- name: Services
+  link: /services/
 - name: Blog
   link: /blog/
-- name: About
-  link: /about/
-- name: Contact
-  link: /contact/
+- name: Om os
+  link: /om-os/
+- name: Kontakt
+  link: /kontakt/
