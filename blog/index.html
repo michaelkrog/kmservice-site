@@ -7,7 +7,7 @@ subtitle: Følg med i vores seneste nyheder
 
 <section class="diagonal">
 	<div class="text-container">
-	    <p class="editor-link"><a href="cloudcannon:collections/_posts" class="btn"><strong>&#9998;</strong> Add Post</a></p>
+	    <p class="editor-link"><a href="cloudcannon:collections/_posts" class="btn"><strong>&#9998;</strong> Tilføj indlæg</a></p>
 		<ul class="blog-posts">
 			{% include list-posts.html posts=paginator.posts %}
 		</ul>
@@ -25,7 +25,7 @@ subtitle: Følg med i vores seneste nyheder
 			<span class="page_number ">{{ paginator.page }} of {{ paginator.total_pages }}</span>
 
 			{% if paginator.next_page %}
-				<a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="next btn">Older posts &rarr;</a>
+				<a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="next btn">Tidligere indlæg &rarr;</a>
 			{% endif %}
 		</div>
 	</section>
