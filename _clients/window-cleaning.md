@@ -5,3 +5,4 @@ external_url: https://github.com/CloudCannon/edition-jekyll-template
 image_path: /images/services/window-cleaning.jpg
 ---
 
+Her skal der være noget om vinduespudsning
